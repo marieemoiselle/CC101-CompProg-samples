@@ -4,6 +4,7 @@ by: **Ms. Fatima Marie P. Agdon, MSCS**
 Note: This is still ongoing, and will have updates as the course progresses. **Don't forget to give this a ⭐!**
 
 ## 💭 About
+This course introduces students to the fundamentals of programming using C++, equipping them with essential skills in problem-solving, logical thinking, and software development. Through a combination of lectures, hands-on laboratory activities, and assessments, students will learn to translate problem statements into working programs by identifying appropriate programming constructs, applying computer science principles, and integrating solutions into complete applications. The course emphasizes both theoretical understanding and practical application, preparing students for more advanced programming and software development subjects.
 
 ## 🗺️ Course Roadmap
 1. **Introduction to Problem Solving and Computational Thinking**
