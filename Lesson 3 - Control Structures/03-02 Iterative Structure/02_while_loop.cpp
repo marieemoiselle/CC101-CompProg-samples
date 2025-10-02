@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(void) {
+int main() {
 	int ctrval = 1; //counter value
 
 	while(ctrval <= 10) {
