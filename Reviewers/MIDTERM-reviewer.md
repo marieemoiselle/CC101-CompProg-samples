@@ -22,7 +22,7 @@ Do not print, reproduce, or re-publish this material. Such individuals identifie
 -----
 ## LESSON 2: DATA, VARIABLES, AND OPERATORS
 ### C++
-A programming language developed as the extended version of C++ by Bjarne Stroustrup.
+A programming language developed as the extended version of C language by Bjarne Stroustrup.
 ### Data
 The information that a program processes, stores, or manipulates. It can be anything that is meaningful for the program to work with.
 
@@ -194,7 +194,7 @@ Arithmetic Operators
 | `/`    | Division        | `1` → `x / y`       |
 | `%`    | Modulo          | `2` → `x % y`       |
 
-## C++ Errors
+### C++ Errors
 **Compile Time Errors** are mistakes that prevent your program from compiling.
 ```cpp
     int a = 10;
