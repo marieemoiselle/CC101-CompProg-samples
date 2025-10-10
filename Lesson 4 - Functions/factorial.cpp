@@ -1,23 +1,25 @@
 #include <iostream>
 using namespace std;
 
-// Recursive function to compute factorial
-int factorial(int n) {
-    if (n == 0 || n == 1) return 1;  // Base case: 0! = 1, 1! = 1
-    return n * factorial(n - 1);     // Recursive step
-}
+int factorial (int);
 
-int main() {
-    int n;
-
-    cout << "Enter a number: ";
-    cin >> n;
-
-    if (n < 0) {
-        cout << "Factorial is not defined for negative numbers." << endl;
-    } else {
-        cout << "Factorial of " << n << " is: " << factorial(n) << endl;
-    }
+int main () {
+    int num;
+    cout <<"Enter value for num: ";
+    cin >> num;
+    int result = factorial(num);
+    cout <<"Factorial of " << num << " is: " << result << endl;
 
     return 0;
+}
+
+int factorial (int n) {
+    // BASE CASE
+    if (n == 1 || n == 0) {
+        return 1;
+    }
+    else {
+        // RECURSIVE CASE
+        return n * factorial (n - 1);
+    }
 }
